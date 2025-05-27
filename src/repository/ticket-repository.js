@@ -1,5 +1,6 @@
 const { NotificationTicket } = require('../models/index');
-const notificationticket = require('../models/notificationticket');
+const { Op } = require("sequelize");
+//const notificationticket = require('../models/notificationticket');
 
 class TicketRepository {
 
